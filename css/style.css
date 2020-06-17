@@ -4,13 +4,6 @@
 	padding: 0px;
 	background: #24252A;
 }
-li, a, button{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
-	font-size: 20px;
-	color: white;
-	text-decoration: none;
-}
 #header{
 	margin: 0 auto;
 	display: flex;
@@ -40,7 +33,7 @@ li, a, button{
 	color: orange;
 	transition: 0.8s;
 }
-.active, .btn:hover {
+.active, active:hover {
  	background-color: none;
 	text-decoration: underline;
  	text-decoration-style: wavy;
@@ -57,6 +50,13 @@ button{
 }
 button:hover {
 	background-color: orange;
+}
+li, a, button{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
 }
 #banner{
 	width: 100%;
