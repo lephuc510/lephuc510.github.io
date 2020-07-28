@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+header.masthead {
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background: url("img/bg-masthead.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header.masthead h1 {
+	font-size: 21px;
+}
+header.masthead h1{
+	font-size: 40px;
+}
+.overlay{
+	margin
+	padding-top: 100px;
+	padding-bottom: 50px;
+	background: url("img/bg-masthead.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.face{
+	border-radius: 150px;
+}
+.ico{
+	margin-left: 10px;
+}
