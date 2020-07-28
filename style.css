@@ -28,6 +28,9 @@ header.masthead h1{
 }
 .face{
 	border-radius: 150px;
+	-webkit-box-shadow: 0px 10px 70px 0px rgba(0,0,0,0.23);
+-moz-box-shadow: 0px 10px 70px 0px rgba(0,0,0,0.23);
+box-shadow: 0px 10px 70px 0px rgba(0,0,0,0.23);
 }
 .ico{
 	margin-left: 10px;
