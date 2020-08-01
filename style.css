@@ -11,9 +11,6 @@ header.masthead {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-header.masthead h1 {
-	font-size: 21px;
-}
 header.masthead h1{
 	font-size: 40px;
 }
@@ -38,4 +35,49 @@ box-shadow: 0px 10px 70px 0px rgba(0,0,0,0.23);
 .zo:hover{
 	transition-duration: 0.5s!important;
 	width: 260px!important;
+}
+@media screen and (max-width: 1200px) and (min-width: 1024px){
+	header.masthead h1{
+		font-size: 17px;
+	}
+	header.masthead {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: url("img/bg-masthead.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+}
+/*laptop va desktop*/
+@media screen and (max-width: 768px) and (min-width: 480px){
+	header.masthead h1{
+		font-size: 15px;
+	}
+	header.masthead {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background: url("img/bg-masthead.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+}
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+right: 30px;
+  z-index: 90;
+  border: none;
+  outline: none; 
+  background-color: #2A7DFF;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#myBtn:hover {
+  background-color: skyblue;
+	transition: 0.5s;
 }
