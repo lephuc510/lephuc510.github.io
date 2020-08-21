@@ -38,19 +38,8 @@
 	text-align: center;
 	padding-top: 15%;	
 }
-.img1{
-	background: url("img/img1.jpg") no-repeat;
-	width: 500px;
-	height: 350px;
-	margin-top: 50px;
-	margin-left: 200px;
-	float: left;
-}
 .textframe1{
-	padding-top: 5%;
-	width: 1000px;
-	margin-right: 150px;
-	float: right;
+	
 }
 .textframe2{
 	margin-right: 20px;
