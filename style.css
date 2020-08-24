@@ -7,7 +7,7 @@
 .wrapper{
 	width: 100%;
 	height: 937px;
-	background: red;
+	background: none;
 }
 .loader2{
 	background: url("img/bn5.jpg") no-repeat;
