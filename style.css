@@ -10,7 +10,7 @@
 	background: none;
 }
 .loader2{
-	background: url("img/bn5.jpg") no-repeat;
+	background: url("img/bn5.jpg") repeat;
 	height: 937px;
 }
 .loader {
