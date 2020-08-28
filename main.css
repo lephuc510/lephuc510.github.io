@@ -3,6 +3,14 @@
   margin: 0;
   font-family: 'Lato', sans-serif;
 }
+@media (max-width: 550px){
+  .mastertext1{
+    font-size: 3rem!important;
+  }
+  .mastertext2{
+    font-size: 1rem!important;
+  }
+}
 #myBtn {
   display: none;
   position: fixed;
