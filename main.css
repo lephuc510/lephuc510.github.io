@@ -126,3 +126,6 @@ header .overlay {
 #sticky-footer {
   background-color: black;
 }
+.card-text{
+  font-size: 15px;
+}
