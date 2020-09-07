@@ -129,3 +129,7 @@ header .overlay {
 .card-text{
   font-size: 15px;
 }
+.card-img-top{
+  width: 700px;
+  height: 400px;
+}
