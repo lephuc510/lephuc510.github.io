@@ -9,6 +9,7 @@
 	<link rel="stylesheet" media="screen" href="css/bootstrap-responsive.min.css">
 	<link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/plugins.css">
+	<link rel="icon" href="img/ico_logo.png" type="image/png" sizes="16x16">
 
 	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 	<script>document.documentElement.className = document.documentElement.className.replace(/(\s|^)no-js(\s|$)/, '');</script>
@@ -17,7 +18,9 @@
 <!--[if lte IE 8]>
   <link rel="stylesheet" type="text/css" href="css/ie8.css" />
 <![endif]-->
-
+<script type="text/JavaScript">
+	var message="NoRightClicking"; function defeatIE() {if (document.all) {(message);return false;}} function defeatNS(e) {if (document.layers||(document.getElementById&&!document.all)) { if (e.which==2||e.which==3) {(message);return false;}}} if (document.layers) {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;} else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;} document.oncontextmenu=new Function("return false")
+	</script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="76">
 	
